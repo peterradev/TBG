@@ -1,0 +1,118 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.welcome-container{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    color:  white;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1419133203517-f3b3ed0ba2bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.welcome-container h1{ 
+    font-size: 5rem;
+}
+
+
+.logo{
+    width: 250px;
+}
+ 
+nav ul{
+    list-style-type: none;
+    position: fixed;
+    width: 98%;
+    overflow: hidden;
+    background: #0F8090;
+    margin-top: 0;;
+}
+
+
+nav ul li{
+    float: right;
+}
+
+nav ul li:hover{
+    background: #08626F;
+}
+
+nav ul li:first-child {
+    float: left; 
+}
+
+nav ul li a{
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+}
+
+.wrapper{
+    display: grid;
+}
+
+.info-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align:center;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.desc{
+    padding: 0 1.2em;
+    line-height: 2.5;
+}
+
+.pic>img{
+    object-fit: cover;
+    width:100%;
+}
+
+.bait-container{
+    display: grid;
+}
+
+.beginning{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: url('https://cdn.pixabay.com/photo/2017/08/22/14/53/fishing-2669219_1280.jpg');
+    width:100%;
+    max-height:50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.beginning h2{
+    color: white;
+    font-size: 4rem;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
