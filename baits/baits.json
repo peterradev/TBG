@@ -1,0 +1,15 @@
+{
+  "Baits": [{
+    "type": "Soft Plastic",
+    "name": "Stick Worm",
+    "description": "a note from Cannes..."
+  }, {
+    "type": "Soft Plastic",
+    "name": "Tube",
+    "description": "a holiday note from Nice..."
+  }, {
+    "type": "Soft Plastic",
+    "name": "Lizard",
+    "description": "an autumn note from Antibes..."
+  }]
+}
